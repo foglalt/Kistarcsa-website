@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kistarcsa Website</title>
+    <meta name="description" content="Welcome to Kistarcsa - A beautiful city in Hungary">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="nav-logo">Kistarcsa</h1>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Kistarcsa</h1>
+                <p>Discover the beauty and charm of our wonderful city</p>
+                <button class="cta-button" onclick="scrollToSection('about')">Learn More</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Kistarcsa</h2>
+                <p>Kistarcsa is a charming city located in Pest County, Hungary. Known for its rich history, beautiful landscapes, and welcoming community, Kistarcsa offers visitors and residents a perfect blend of traditional Hungarian culture and modern amenities.</p>
+                <div class="features">
+                    <div class="feature">
+                        <h3>Rich History</h3>
+                        <p>Explore centuries of Hungarian heritage and historical landmarks.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Natural Beauty</h3>
+                        <p>Enjoy the scenic landscapes and peaceful environment.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Community</h3>
+                        <p>Experience the warmth and hospitality of local residents.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Get in touch to learn more about Kistarcsa or plan your visit.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Visit</h3>
+                        <p>Kistarcsa, Pest County<br>Hungary</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>info@kistarcsa.hu</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kistarcsa Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
